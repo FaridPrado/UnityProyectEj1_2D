@@ -1,0 +1,23 @@
+TAREAS DEL PLAYER Y COLISIONES 2D
+
+Configurar el Player
+    Revisar los sprites john_idle
+    Verificar la division de john_idle en el Sprite Editor
+    Seleccionar john_idle_0 para representar al Player
+    Colocar el Player en la escena
+
+Generar fisicas y colisiones del Player
+    Agregar Rigidbody2D al Player
+    Agregar BoxCollider2D al Player
+    Bloquear la rotacion del Rigidbody2D
+
+Generar colision con el entorno 2D
+    Verificar TilemapCollider2D del entorno
+    Verificar CompositeCollider2D del entorno
+    Verificar que el Player se apoye sobre el escenario y no lo atraviese
+
+Desplazar el Player en el eje X
+    Crear el script MovimientoPlayer
+    Leer las teclas A/D y flechas izquierda/derecha
+    Aplicar velocidad horizontal al Rigidbody2D
+    Probar el movimiento y las colisiones en Play
